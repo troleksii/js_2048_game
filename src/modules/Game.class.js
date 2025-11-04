@@ -1,5 +1,5 @@
 'use strict';
-
+/* eslint-disable function-paren-newline */
 /**
  * This class represents the game.
  * Now it has a basic structure, that is needed for testing.
@@ -239,8 +239,6 @@ class Game {
       [0, 0, 0, 0],
     ];
   }
-
-  // Add your own methods here
 }
 
 module.exports = Game;
