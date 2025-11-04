@@ -34,6 +34,10 @@ startBtn.addEventListener('click', () => {
 });
 
 document.addEventListener('keydown', (e) => {
+  if(game.gameStatus === 'idle') {
+    return
+  }
+  
   const score = document.querySelector('.game-score');
 
   switch (e.key) {
